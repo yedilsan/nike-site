@@ -1,3 +1,4 @@
+import NavBar from './components/NavBar';
 import {
 	CustomerReviews,
 	Footer,
@@ -11,7 +12,7 @@ import Hero from './sections/Hero';
 
 const App = () => (
 	<main className='relative'>
-		{/* <Nav/> */}
+		<NavBar />
 		<section className='xl: padding-l wide:padding-r padding-b'>
 			<Hero />
 		</section>
