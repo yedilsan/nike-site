@@ -11,7 +11,7 @@ const Button = ({
 				backgroundColor
 					? `${backgroundColor} ${borderColor} ${textColor}`
 					: 'bg-coral-red text-white border-coral-red'
-			} rounded-full`}
+			} rounded-full focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 focus:outline-none`}
 		>
 			{label}
 			{iconUrl && (
